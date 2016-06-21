@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #F9F0CA;
+  font-family: 'Sanchez';
+}
+.header .row h1 {
+  font-family: 'Special Elite';
+  font-weight: 400;
+  margin: 27px 0 0 0;
+  font-size: 30px;
+  color:  #fff;
+}
+
+.header ul {
+  list-style: none;
+  color: #fff;
+}
+
+.header li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.pull-right{
+  margin: 25px 0 0 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color: #fff;
+}
+
+.main {
+  text-align: center;
+  background: url(img/p8.jpg)no-repeat center fixed;
+  background-size: cover;
+  height: 450px;
+}
+
+.header {
+  background: #600C25;
+  min-height: 80px;
+}
+
+.footer {
+  background: #070D2B;
+  padding-bottom: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer ul li {
+  display: block;;
+  margin: 0 20px 0 0;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.supporting {
+  padding: 40px;
+}
+
+.main h1, .main p {
+  padding: 30px;
+  margin-top: 60px;
+  color: #FCD3BF;
+}
+
+.main .container  h1 span {
+    border-bottom: 3px solid #fff;
+}
+
+.main p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.thumbnail {
+  padding: 0;
+  border: 0;
+  border-radius: 0px;
+}
+
+.header .btn-default {
+  border: 0px;
+  border-radius: 0;
+  padding: 8px 30px;
+}
+
+.header a {
+  font-weight: bold;
+}
+
+.about-me:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.main p span{
+  border-left: 3px dotted #fff;
+  border-right: 3px dotted #fff;
+}
