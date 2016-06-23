@@ -1,0 +1,131 @@
+html, body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url(../img/p10.png) ;
+  height: 100%;
+}
+
+
+.email-contact {
+  position:absolute;
+    width:592px; /*image width */
+    height:512px; /*image height */
+    left:50%;
+    top:50%;
+    margin-left:-296px; /*image width/2 */
+    margin-top:-256px; /*image height/2 */
+    font-family: 'Sanchez';
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.gmail {
+  font-size: 60px;
+  font-weight: bold;
+  color: #C7F9EE;
+
+
+}
+
+.git {
+  font-size: 60px;
+  font-weight: bold;
+  color: #C7F9EE;
+}
+
+
+.hvr-wobble-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.hvr-wobble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+  -webkit-animation-name: hvr-wobble-bottom;
+  animation-name: hvr-wobble-bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.btn-default {
+  border: 0px;
+  border-radius: 0;
+  padding: 8px 35px;
+  font-weight: bold;
+  font-family: 'Sanchez';
+  display: inline;
+  margin-right: 20px;
+  }
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.pull-right{
+  margin: 25px 0 0 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.border {
+  height: 6px;
+  border: 0;
+  background-color: :#F709A4;
+  background-image: linear-gradient(to right, #E23F3F, #E23F3F 25%, #54EA9A 25%,#54EA9A 50%,
+    #162693 50%, #162693 75%,#A50E5F 75%,#A50E5F 100%,#A50E5F 100%);
+
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+    background-size: 50% 100%;
+
+}
+}
