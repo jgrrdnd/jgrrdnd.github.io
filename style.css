@@ -1,15 +1,57 @@
+
+.border {
+  height: 6px;
+  border: 0;
+  background-color: :#fd7473;
+  background-image: linear-gradient(to right, #E23F3F, #E23F3F 25%, #54EA9A 25%,#54EA9A 50%,
+    #162693 50%, #162693 75%,#A50E5F 75%,#A50E5F 100%,#A50E5F 100%);
+
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+    background-size: 50% 100%;
+
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
-  background: #F9F0CA;
+  background-image: url(img/p10.png);
   font-family: 'Sanchez';
 }
 .header .row h1 {
   font-family: 'Special Elite';
-  font-weight: 400;
-  margin: 27px 0 0 0;
-  font-size: 30px;
+  margin: 40px 0 0 0;
+  font-size: 1.35em;
   color:  #fff;
+
+
+}
+
+span {
+  font-weight: 600;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
 }
 
 .header ul {
@@ -43,52 +85,24 @@ a {
 
 .main {
   text-align: center;
-  background: url(p5.jpg)no-repeat center fixed;
-  background-size: cover;
   height: 450px;
+
 }
 
-.header {
-  background: #600C25;
-  min-height: 80px;
-}
-
-.footer {
-  background: #070D2B;
-  padding-bottom: 15px;
-}
-
-.footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer ul li a {
-  color: #fff;
-}
-
-.footer ul li {
-  display: block;;
-  margin: 0 20px 0 0;
-}
-
-.footer h3 {
-  color: #fff;
-}
 
 .supporting {
   padding: 40px;
+
 }
 
 .main h1, .main p {
   padding: 30px;
   margin-top: 60px;
-  color: #D0BED8;
+  color: #F2F1E3;
 }
 
 .main .container  h1 span {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid  #8591F2;
 }
 
 .main p {
@@ -123,6 +137,5 @@ a {
 }
 
 .main p span{
-  border-left: 3px dotted #fff;
-  border-right: 3px dotted #fff;
+  border-bottom: 2px solid #8591F2;
 }
