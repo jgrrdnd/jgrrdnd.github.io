@@ -120,6 +120,7 @@ a {
   border: 0px;
   border-radius: 0;
   padding: 8px 30px;
+  color: #fff;
 }
 
 .header a {
@@ -127,13 +128,13 @@ a {
 }
 
 .about-me:hover {
-  color: #000;
+  color: #A50E5F;
   text-decoration: underline;
 }
 
 .btn-default:hover {
   color: #fff;
-  background-color: #000;
+  background-color: #A50E5F;
 }
 
 .main p span{
