@@ -23,14 +23,14 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #A50E5F;
   text-decoration: none;
 }
 
 .gmail {
   font-size: 60px;
   font-weight: bold;
-  color: #C7F9EE;
+  color: #F2F1E3;
 
 
 }
@@ -38,7 +38,7 @@ a:hover {
 .git {
   font-size: 60px;
   font-weight: bold;
-  color: #C7F9EE;
+  color: #F2F1E3;
 }
 
 
