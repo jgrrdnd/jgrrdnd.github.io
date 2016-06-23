@@ -16,7 +16,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url(img/p10.png);
+  background-image: url(p10.png);
   font-family: 'Sanchez';
 }
 .header .row h1 {
