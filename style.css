@@ -15,7 +15,7 @@
 .border-bottom {
   height: 6px;
   border: 0;
-  margin-top: -50px;
+  margin-top: 30px;
   background-color: :#fd7473;
   background-image: linear-gradient(to right, #E23F3F, #E23F3F 25%, #54EA9A 25%,#54EA9A 50%,
     #162693 50%, #162693 75%,#A50E5F 75%,#A50E5F 100%,#A50E5F 100%);
