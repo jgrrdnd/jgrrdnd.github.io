@@ -12,25 +12,12 @@
 
 }
 
-.border-bottom {
-  height: 6px;
-  border: 0;
-  margin-top: 10%;
-  background-color: :#fd7473;
-  background-image: linear-gradient(to right, #E23F3F, #E23F3F 25%, #54EA9A 25%,#54EA9A 50%,
-    #162693 50%, #162693 75%,#A50E5F 75%,#A50E5F 100%,#A50E5F 100%);
-
-    -webkit-background-size: 50% 100%;
-    -moz-background-size: 50% 100%;
-    background-size: 50% 100%;
-
-}
 
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url(p10.png);
-  font-family: 'Sanchez';
+  background-image: url(img/p10.png);
+  font-family: 'Special Elite';
 }
 .header .row h1 {
   font-family: 'Special Elite';
@@ -145,63 +132,43 @@ span {
   margin: 25px 0 0 0;
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div {
-  display: block;
+.img {
+  padding-top: 25px;
 }
 
 a {
   color: #fff;
+  height: 240px;
+  width: 100%;
+  padding: 20px;
 }
 
 .main {
   text-align: center;
   height: 450px;
-
-}
-
-
-.supporting {
   padding: 40px;
+  margin: 90px;
+  padding-top: 0px;
+  margin-top: 0px;
 
 }
 
-.main h1, .main p {
-  padding: 30px;
-  margin-top: 60px;
-  color: #F2F1E3;
+
+.supporting1 {
+  padding: 40px;
+  background-color: #fff;
+
 }
 
 .main .container  h1 span {
     border-bottom: 3px solid  #8591F2;
+    color: #fff;
 }
 
 .main p {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.thumbnail {
-  padding: 0;
-  border: 0;
-  border-radius: 0px;
-}
-
-.header .btn-default {
-  border: 0px;
-  border-radius: 0;
-  padding: 8px 30px;
-  
-}
-
-.header a {
-  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .about-me:hover {
@@ -214,6 +181,46 @@ a {
   background-color: #A50E5F;
 }
 
-.main p span{
-  border-bottom: 2px solid #8591F2;
+
+.col {
+  padding-right: 20px;
+}
+
+.supporting {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #34495E;
+}
+
+.supporting0 {
+  background-color: #34495E;
+  color: #fff;
+}
+
+.supporting0 p {
+  font-family: 'Sanchez';
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    transform: rotate(90deg);
 }
