@@ -1,0 +1,226 @@
+
+.border {
+  height: 6px;
+  border: 0;
+  background-color: :#fd7473;
+  background-image: linear-gradient(to right, #E23F3F, #E23F3F 25%, #54EA9A 25%,#54EA9A 50%,
+    #162693 50%, #162693 75%,#A50E5F 75%,#A50E5F 100%,#A50E5F 100%);
+
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+    background-size: 50% 100%;
+
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/p10.png);
+  font-family: 'Special Elite';
+}
+.header .row h1 {
+  font-family: 'Special Elite';
+  margin: 40px 0 0 0;
+  font-size: 1.35em;
+  color:  #fff;
+
+
+}
+
+span {
+  font-weight: 600;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.hvr-wobble-to-bottom-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
+  -webkit-animation-name: hvr-wobble-to-bottom-right;
+  animation-name: hvr-wobble-to-bottom-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.hvr-wobble-to-top-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
+  -webkit-animation-name: hvr-wobble-to-top-right;
+  animation-name: hvr-wobble-to-top-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.hvr-wobble-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
+}
+
+.header ul {
+  list-style: none;
+  color: #fff;
+}
+
+.header li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.pull-right{
+  margin: 25px 0 0 0;
+}
+
+.img {
+  padding-top: 25px;
+}
+
+a {
+  color: #fff;
+  height: 240px;
+  width: 100%;
+  padding: 20px;
+}
+
+.main {
+  text-align: center;
+  height: 450px;
+  padding: 40px;
+  margin: 90px;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+
+.supporting1 {
+  padding: 40px;
+  background-color: #fff;
+
+}
+
+.main .container  h1 span {
+    border-bottom: 3px solid  #8591F2;
+    color: #fff;
+}
+
+.main p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.about-me:hover {
+  color: #A50E5F;
+  text-decoration: underline;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #A50E5F;
+}
+
+
+.col {
+  padding-right: 20px;
+}
+
+.supporting {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #34495E;
+}
+
+.supporting0 {
+  background-color: #34495E;
+  color: #fff;
+}
+
+.supporting0 p {
+  font-family: 'Sanchez';
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
